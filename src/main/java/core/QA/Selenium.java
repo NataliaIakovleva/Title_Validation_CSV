@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Selenium {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
  
-		String csvFile = "D:\\GoogleDisc\\Nata_QA\\Workspace_homework_36\\QA\\src\\main\\resources\\Test.csv";
+		String csvFile = "\\src\\main\\resources\\Test.csv";
 		BufferedReader br = null;
 		String line = null;
 		String cvsSplitBy = ",";
