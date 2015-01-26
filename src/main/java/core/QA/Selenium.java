@@ -16,7 +16,7 @@ public class Selenium {
 		{
 			csvFile = ".\\src\\main\\resources\\Test.csv";
 		}
-		else if (OS.equals("mac"))
+		else if (OS.equals("linux"))
 		{
 			csvFile = "./src/mail/resources/Test.csv";
 		}
