@@ -18,7 +18,7 @@ public class Selenium {
 		}
 		else if (OS.equals("linux"))
 		{
-			csvFile = "./src/mail/resources/Test.csv";
+			csvFile = "./src/main/resources/Test.csv";
 		}
 		else
 		{
