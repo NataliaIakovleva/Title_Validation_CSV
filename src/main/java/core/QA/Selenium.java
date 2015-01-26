@@ -10,9 +10,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Selenium {
-	public static void main(String[] args) throws FileNotFoundException, IOException {
- 
-		String csvFile = "\\src\\main\\resources\\Test.csv";
+	public static void main(String[] OS) throws FileNotFoundException, IOException {
+		String csvFile;
+		if (OS.equals("win"))
+		{
+			csvFile = ".\\src\\main\\resources\\Test.csv";
+		}
+		else if (OS.equals("mac"))
+		{
+			csvFile = "./src/mail/resources/Test.csv";
+		}
+		else
+		{
+			System.out.println("Please provide your OS");
+		}
 		BufferedReader br = null;
 		String line = null;
 		String cvsSplitBy = ",";
